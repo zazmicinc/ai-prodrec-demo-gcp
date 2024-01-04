@@ -1,0 +1,17 @@
+.cart-button {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 20px;
+    height: 75px;
+    width: 75px;
+    box-sizing: border-box;
+}
+
+.cart-button__icon {
+    width: 35px;
+    height: 35px;
+}

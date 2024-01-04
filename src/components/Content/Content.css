@@ -1,0 +1,140 @@
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  
+}
+.cart-open {
+  opacity: 0.7;
+  background-color: #8e8d8d; 
+  filter: blur(5px); 
+}
+.content {
+  flex-direction: row;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  transition: opacity 0.3s ease-in-out;
+}
+.content__left {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+.content__right {
+  width: 100%;
+  max-width: calc(1320px / 2);
+  flex: 1 1 auto;
+  box-sizing: border-box;
+}
+.content__logo {
+  font-family: "Inter Tight";
+  padding-left: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #000;
+  font-size: 48px;
+  width: 206px;
+  margin: 0;
+  margin-right: 200px;
+  margin-top: 60px;
+}
+.content__logo-info {
+  font-family: "Inter Tight";
+  letter-spacing: 0;
+  font-weight: 500;
+  text-align: left;
+  font-size: 18px;
+  width: 179px;
+  color: #000;
+  margin: 0;
+  margin-right: 200px;
+}
+.content__explore {
+  font-family: "Inter Tight";
+  font-weight: normal;
+  letter-spacing: 0;
+  margin-top: 50px;
+  text-align: left;
+  font-size: 24px;
+  display: flex;
+  color: #000;
+  width: 100%;
+}
+.content__explore-start {
+  font-family: "Inter Tight";
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 24px;
+  display: flex;
+  color: #000;
+  width: 100%;
+}
+.content__trending-title {
+  font-family: "Inter Tight";
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-top: 50px;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  width: 100%;
+}
+.content__trending {
+  grid-template-columns: repeat(4, 1fr);
+  margin-right: 130px;
+  display: grid;
+  gap: 8px;
+}
+.content__trending-btn {
+  background-color: #4c8b6c;
+  font-family: "Inter Tight";
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  padding: 3px 8px;
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+.content__trending-btn-text {
+  white-space: nowrap;
+  width: 100%;
+}
+.nocontent {
+  height: 100%;
+  width: 100%;
+}
+.content__social {
+  align-items: center;
+  flex-direction: row;
+  margin-top: 65px;
+  display: flex;
+  width: 100%;
+}
+.content__social-media {
+  background-color: #4c8b6c;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 11px;
+  margin-right: 9px;
+  display: flex;
+  padding: 12px;
+  height: 36px;
+  width: 36px;
+}
